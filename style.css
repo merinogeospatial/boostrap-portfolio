@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#my-banner {
+    display: block;
+    padding: 20px;
+    margin: 0;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.my-header {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    border: solid red 2px;
+}
+
+.container-fluid {
+    border: dashed blue 3px;
+    height: 100%;
+}
