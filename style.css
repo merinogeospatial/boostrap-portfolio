@@ -1,11 +1,15 @@
 html,
 body {
     height: 100%;
+    background-image: url("background.png")
 }
 
 body {
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   line-height: 1.5;
+   color: lightslategray;
 }
+
 
 #my-banner {
     display: block;
@@ -21,11 +25,22 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.container {
+
+/* .container {
     border: solid red 2px;
-}
+} */
 
 .container-fluid {
-    border: dashed blue 3px;
+    /* border: dashed blue 3px; */
     height: 100%;
+}
+
+/* .row {
+    border: greenyellow dashed 6px;
+} */
+
+.content-container,
+.nav-container {
+    width: 66.66%;
+    background-color: white;
 }
