@@ -1,15 +1,14 @@
-html,
-body {
+body,
+html {
     height: 100%;
-    background-image: url("background.png")
+    background-image: url("background.png");
 }
 
 body {
-   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-   line-height: 1.5;
-   color: lightslategray;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    color: lightslategray;
 }
-
 
 #my-banner {
     display: block;
@@ -24,7 +23,6 @@ body {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 
 /* .container {
     border: solid red 2px;
