@@ -1,13 +1,14 @@
-body,
 html {
-    height: 100%;
-    background-image: url("background.png");
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.5;
+    background-image: url("background.png");
     color: lightslategray;
+    margin-bottom: 60px;
 }
 
 #my-banner {
@@ -41,4 +42,21 @@ body {
 .nav-container {
     width: 66.66%;
     background-color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    /* Set the fixed height of the footer here */
+    height: 65px;
+    line-height: 75px;
+    /* Vertically center the text there */
+    background-color: #777777;
+    text-align: center;
+    border-top: #4aaaa5 solid 10px;
+    color: white;
+    font-size: 10px;
 }
