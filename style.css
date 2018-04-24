@@ -44,6 +44,7 @@ body {
 .nav-container {
     width: 66.66%;
     background-color: white;
+    overflow: auto;
 }
 
 .footer {
@@ -68,53 +69,60 @@ body {
     text-align: center;
 }
 
+img,
+.img-container {
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+}
 
 
 
 
-/* CUSTOM COLOR BUTTON */
-.btn-sample { 
-    color: #FFFFFF; 
-    background-color: #4AAAA5; 
-    border-color: #130269; 
-  } 
-   
-  .btn-sample:hover, 
-  .btn-sample:focus, 
-  .btn-sample:active, 
-  .btn-sample.active, 
-  .open .dropdown-toggle.btn-sample { 
-    color: #FFFFFF; 
-    background-color: #327370; 
-    border-color: #130269; 
-  } 
-   
-  .btn-sample:active, 
-  .btn-sample.active, 
-  .open .dropdown-toggle.btn-sample { 
-    background-image: none; 
-  } 
-   
-  .btn-sample.disabled, 
-  .btn-sample[disabled], 
-  fieldset[disabled] .btn-sample, 
-  .btn-sample.disabled:hover, 
-  .btn-sample[disabled]:hover, 
-  fieldset[disabled] .btn-sample:hover, 
-  .btn-sample.disabled:focus, 
-  .btn-sample[disabled]:focus, 
-  fieldset[disabled] .btn-sample:focus, 
-  .btn-sample.disabled:active, 
-  .btn-sample[disabled]:active, 
-  fieldset[disabled] .btn-sample:active, 
-  .btn-sample.disabled.active, 
-  .btn-sample[disabled].active, 
-  fieldset[disabled] .btn-sample.active { 
-    background-color: #4AAAA5; 
-    border-color: #130269; 
-  } 
-   
-  .btn-sample .badge { 
-    color: #4AAAA5; 
-    background-color: #FFFFFF; 
-  }
+
+/************************************************* CUSTOM COLOR BUTTON ************************************************/
+.btn-sample {
+    color: #FFFFFF;
+    background-color: #4AAAA5;
+    border-color: #130269;
+}
+
+.btn-sample.active,
+.btn-sample:active,
+.btn-sample:focus,
+.btn-sample:hover,
+.open .dropdown-toggle.btn-sample {
+    color: #FFFFFF;
+    background-color: #327370;
+    border-color: #130269;
+}
+
+.btn-sample.active,
+.btn-sample:active,
+.open .dropdown-toggle.btn-sample {
+    background-image: none;
+}
+
+.btn-sample.disabled,
+.btn-sample.disabled.active,
+.btn-sample.disabled:active,
+.btn-sample.disabled:focus,
+.btn-sample.disabled:hover,
+.btn-sample[disabled],
+.btn-sample[disabled].active,
+.btn-sample[disabled]:active,
+.btn-sample[disabled]:focus,
+.btn-sample[disabled]:hover,
+fieldset[disabled] .btn-sample,
+fieldset[disabled] .btn-sample.active,
+fieldset[disabled] .btn-sample:active,
+fieldset[disabled] .btn-sample:focus,
+fieldset[disabled] .btn-sample:hover {
+    background-color: #4AAAA5;
+    border-color: #130269;
+}
+
+.btn-sample .badge {
+    color: #4AAAA5;
+    background-color: #FFFFFF;
+}
