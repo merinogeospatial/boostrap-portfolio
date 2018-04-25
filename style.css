@@ -73,7 +73,12 @@ img,
 .img-container {
     height: 200px;
     width: 200px;
-    overflow: auto;
+    overflow: hidden;
+    margin: auto;
+    padding: 0;
+    color: white;
+    background-color: #4AAAA5;
+    border: solid black 1px;
 }
 
 
