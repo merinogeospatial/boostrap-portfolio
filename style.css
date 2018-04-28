@@ -26,19 +26,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* .container {
-    border: solid red 2px;
-} */
-
 .container-fluid {
-    /* border: dashed blue 3px; */
     height: 100%;
 
 }
-
-/* .row {
-    border: greenyellow dashed 6px;
-} */
 
 .content-container,
 .nav-container {
@@ -62,15 +53,15 @@ body {
     border-top: #4aaaa5 solid 10px;
     color: white;
     font-size: 10px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .row-pics {
     text-align: center;
 }
 
-img,
-.img-container {
+.img-container,
+img {
     height: 200px;
     width: 200px;
     overflow: hidden;
@@ -84,8 +75,6 @@ img,
 .button-container {
     width: auto;
 }
-
-
 
 /************************************************* CUSTOM COLOR BUTTON ************************************************/
 .btn-sample {
@@ -139,57 +128,56 @@ fieldset[disabled] .btn-sample:hover {
 .navbar-toggler {
     border: none;
     background: transparent !important;
-  }
-  
-  .navbar-toggler:focus {
+}
+
+.navbar-toggler:focus {
     outline: none;
     background: transparent !important;
-  }
-  
-  .navbar-toggler .icon-bar {
+}
+
+.navbar-toggler .icon-bar {
     background-color: #4aaaa5;
     transform: rotate(0deg) translate(0px, 0px);
-    transition: ease all .2s;
-  }
-  
-  .navbar-toggler .icon-bar {
+    transition: ease all 0.2s;
+}
+
+.navbar-toggler .icon-bar {
     display: block;
     width: 22px;
     height: 2px;
     border-radius: 1px;
-  }
-  
-  .navbar-toggler .icon-bar+.icon-bar {
+}
+
+.navbar-toggler .icon-bar+.icon-bar {
     margin-top: 4px;
-  }
-  
-  .icon-bar:nth-child(2) {
+}
+
+.icon-bar:nth-child(2) {
     width: 16px;
-    transition: ease all .2s;
-  }
-  
-  .navbar-toggler:hover>.icon-bar:nth-child(2) {
+    transition: ease all 0.2s;
+}
+
+.navbar-toggler:hover > .icon-bar:nth-child(2) {
     width: 22px;
-    transition: ease all .2s;
-  }
-  
-  .navbar-toggler:active>.icon-bar:nth-child(2) {
+    transition: ease all 0.2s;
+}
+
+.navbar-toggler:active > .icon-bar:nth-child(2) {
     width: 22px;
-    transition: ease all .2s;
-  }
-  
-  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
+    transition: ease all 0.2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
     transform: rotate(45deg) translate(5px, 4px);
-    transition: ease all .2s;
-  }
-  
-  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
+    transition: ease all 0.2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
     opacity: 0;
-    transition: ease all .2s;
-  }
-  
-  .navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
+    transition: ease all 0.2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
     transform: rotate(-45deg) translate(4px, -4px);
-    transition: ease all .2s;
-  }
-  
+    transition: ease all 0.2s;
+}
